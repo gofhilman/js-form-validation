@@ -1,0 +1,11 @@
+.grid-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 5px 50px;
+    margin-bottom: 10px;
+}
+
+input:user-invalid {
+    border: 2px dashed red;
+  }

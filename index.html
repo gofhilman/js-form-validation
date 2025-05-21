@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation with JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="" novalidate>
+        <div class="grid-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="country">Country</label>
+            <input type="text" name="country" id="country" required>
+            <label for="postal-code">Postal code</label>
+            <input type="tel" name="postal-code" id="postal-code" minlength="5" maxlength="5" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" minlength="6" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{6,}" required>
+            <label for="password-confirmation">Confirm password</label>
+            <input type="password" name="password-confirmation" id="password-confirmation" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <p></p>
+</body>
+</html>
