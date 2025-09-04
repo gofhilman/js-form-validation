@@ -2,6 +2,8 @@
 
 This project demonstrates basic form validation using JavaScript on client side. It ensures that user inputs meet specific criteria before allowing form submission. The validation is implemented dynamically, providing real-time feedback to users.
 
+Live: <https://gofhilman.github.io/js-form-validation/>
+
 ## Features
 
 - **Email Validation**: Ensures the email field contains a valid email address.
